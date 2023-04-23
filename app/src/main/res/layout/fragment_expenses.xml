@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ExpensesFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Expense"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#CF3333"/>
+    <TextView
+        android:id="@+id/exptxtid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/expname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"/>
+    <EditText
+        android:id="@+id/expamunt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/exptype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Transaction type"/>
+    <EditText
+        android:id="@+id/expnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter note"/>
+    <Button
+        android:id="@+id/expbtnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_gravity="center"/>
+</LinearLayout>

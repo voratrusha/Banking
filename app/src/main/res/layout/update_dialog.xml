@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/updname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name:"/>
+            <EditText
+                android:id="@+id/updtype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type of transaction:"
+                android:inputType="number"/>
+            <EditText
+                android:id="@+id/updbank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Bank name:"/>
+            <EditText
+                android:id="@+id/updaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Account number:"
+                android:inputType="numberPassword"/>
+            <EditText
+                android:id="@+id/updtamt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Amount:"
+                android:inputType="number"/>
+            <Button
+                android:id="@+id/upd_btnupdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:backgroundTint="#36941C"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
